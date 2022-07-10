@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <!-- screen -->
+      <div class="display">
+        <span class="display__text">40</span>
+      </div>
+
+      <!-- buttom -->
+      <div class="btn--container">
+        <div class="btn__row row1">
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="clear cube__face cube__face--front symbol-color-front prac2-symbol"
+              >
+                c
+              </div>
+              <div
+                class="cube__face cube__face--right symbol-color-side2"
+              ></div>
+              <div class="cube__face cube__face--left symbol-color-side2"></div>
+              <div class="cube__face cube__face--top symbol-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol-color-side"
+              ></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="operator cube__face cube__face--front symbol-color-front prac2-symbol symbol-font-size"
+              >
+                on
+              </div>
+              <div
+                class="cube__face cube__face--right symbol-color-side2"
+              ></div>
+              <div class="cube__face cube__face--left symbol-color-side2"></div>
+              <div class="cube__face cube__face--top symbol-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol-color-side"
+              ></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="operator cube__face cube__face--front symbol-color-front prac2-symbol symbol-font-size"
+              >
+                %
+              </div>
+              <div
+                class="cube__face cube__face--right symbol-color-side2"
+              ></div>
+              <div class="cube__face cube__face--left symbol-color-side2"></div>
+              <div class="cube__face cube__face--top symbol-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol-color-side"
+              ></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="operator cube__face cube__face--front symbol2-color-front prac2"
+              >
+                ÷
+              </div>
+              <div
+                class="cube__face cube__face--right symbol2-color-side2"
+              ></div>
+              <div
+                class="cube__face cube__face--left symbol2-color-side2"
+              ></div>
+              <div class="cube__face cube__face--top symbol2-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol2-color-side"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="btn__row row2">
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                7
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                8
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                9
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side2"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="operator cube__face cube__face--front symbol2-color-front prac2"
+              >
+                x
+              </div>
+              <div
+                class="cube__face cube__face--right symbol2-color-side2"
+              ></div>
+              <div
+                class="cube__face cube__face--left symbol2-color-side2"
+              ></div>
+              <div class="cube__face cube__face--top symbol2-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol2-color-side"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="btn__row row3">
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                4
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                5
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                6
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="operator cube__face cube__face--front symbol2-color-front prac2"
+              >
+                -
+              </div>
+              <div
+                class="cube__face cube__face--right symbol2-color-side2"
+              ></div>
+              <div
+                class="cube__face cube__face--left symbol2-color-side2"
+              ></div>
+              <div class="cube__face cube__face--top symbol2-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol2-color-side"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="btn__row row4">
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                1
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                2
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="number cube__face cube__face--front num-color-front prac2"
+              >
+                3
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="operator cube__face cube__face--front symbol2-color-front prac2"
+              >
+                +
+              </div>
+              <div
+                class="cube__face cube__face--right symbol2-color-side2"
+              ></div>
+              <div
+                class="cube__face cube__face--left symbol2-color-side2"
+              ></div>
+              <div class="cube__face cube__face--top symbol2-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol2-color-side"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="btn__row row5">
+          <div class="scene-zero">
+            <div class="cube-zero">
+              <div
+                class="number cube__face cube-zero__face--front zero-color-front prac2-zero"
+              >
+                0
+              </div>
+              <div
+                class="cube__face cube-zero__face--right zero-color-side2"
+              ></div>
+              <div
+                class="cube__face cube-zero__face--left zero-color-side2"
+              ></div>
+              <div
+                class="cube__face cube-zero__face--top zero-color-side"
+              ></div>
+              <div
+                class="cube__face cube-zero__face--bottom zero-color-side"
+              ></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="decimal cube__face cube__face--front num-color-front prac2"
+              >
+                .
+              </div>
+              <div class="cube__face cube__face--right num-color-side2"></div>
+              <div class="cube__face cube__face--left num-color-side2"></div>
+              <div class="cube__face cube__face--top num-color-side"></div>
+              <div class="cube__face cube__face--bottom num-color-side"></div>
+            </div>
+          </div>
+          <div class="scene">
+            <div class="cube">
+              <div
+                class="calculate cube__face cube__face--front symbol2-color-front prac2 click-loading"
+              >
+                =
+              </div>
+              <div
+                class="cube__face cube__face--right symbol2-color-side2"
+              ></div>
+              <div
+                class="cube__face cube__face--left symbol2-color-side2"
+              ></div>
+              <div class="cube__face cube__face--top symbol2-color-side"></div>
+              <div
+                class="cube__face cube__face--bottom symbol2-color-side"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

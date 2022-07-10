@@ -1,0 +1,26 @@
+.cube__face--front:hover,
+.cube-zero__face--front:hover {
+  cursor: pointer;
+}
+.prac1:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.prac2:active {
+  transform: translateZ(-35px);
+  font-size: 24px;
+}
+.prac2-symbol:active {
+  transform: translateZ(-40px);
+  font-size: 22px;
+}
+.prac2-zero:active {
+  transform: translateZ(-45px);
+}
+.click-loading:active {
+  cursor: progress;
+}
+
+.ex1:hover {
+  background-color: red;
+}

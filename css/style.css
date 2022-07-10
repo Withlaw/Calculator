@@ -1,0 +1,144 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+/*css*/
+@import 'cube.css';
+@import 'magic.css';
+
+/*reset*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vh;
+  height: 100vh;
+  margin: 0;
+  padding: 100px;
+}
+
+/* contents */
+.calculator {
+  background-color: #353b45;
+  border-radius: 16px;
+
+  width: 340px;
+  height: 520px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*display*/
+.display {
+  background-color: #353b45;
+
+  width: 330px;
+  height: 100px;
+  padding: 10px 8px 0px 0px;
+
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+}
+.display__text {
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  color: white;
+
+  width: 306px;
+  height: 80px;
+
+  padding-right: 10px;
+  margin-right: 4px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*button*/
+.btn--container {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+
+  background-color: #353b45;
+
+  width: 330px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.symbol-font-size {
+  font-size: 22px;
+}
+
+.btn__row {
+  width: auto;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn {
+  font-size: 25px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button color */
+.num-color-front {
+  background-color: #f2eaf1;
+}
+.num-color-side {
+  background-color: #e1dad9;
+  /* background-color: #c5bcb5; */
+  /* background-color: #e2dbd8; */
+}
+.num-color-side2 {
+  background-color: #e0d0cc;
+}
+
+.symbol-color-front {
+  background-color: #6e9ac6;
+}
+.symbol-color-side {
+  background-color: #3c6178;
+}
+.symbol-color-side2 {
+  background-color: #183350;
+}
+.symbol2-color-front {
+  background-color: #fcc568;
+}
+.symbol2-color-side {
+  background-color: #bf7d23;
+}
+.symbol2-color-side2 {
+  /* background-color: #9e621c; */
+  background-color: #9f6517;
+}
+.zero-color-front {
+  background-color: #dbd7c0;
+}
+.zero-color-side {
+  background-color: #a49b78;
+}
+.zero-color-side2 {
+  background-color: #bdb699;
+}
